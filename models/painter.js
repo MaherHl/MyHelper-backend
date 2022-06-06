@@ -24,6 +24,7 @@ const mongoose  = require("mongoose");
       },
       avatar: {
         type: String,
+        default:"https://avatars.githubusercontent.com/u/1?v=4"
     
       },
       created_at: {
