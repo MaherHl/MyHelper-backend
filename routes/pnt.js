@@ -7,7 +7,7 @@ router.get('/allPnt',async (req,res)=>{
    let pnt = await painters.find()
    res.send(pnt)
 })
-router.post('/addCst',async (req,res)=>{
+router.post('/addPnt',async (req,res)=>{
     let pnt = new painters()
     pnt.full_name=req.body.full_name
     pnt.email= req.body.email
